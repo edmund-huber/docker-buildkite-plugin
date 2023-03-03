@@ -97,6 +97,8 @@ configuration:
       type: array
     ulimits:
       type: array
+    arbitrary-flags:
+      type: string
   required:
     - image
   additionalProperties: false
